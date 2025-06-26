@@ -1,4 +1,5 @@
 // source:  https://grafana.com/docs/grafana-cloud/alerting-and-irm/slo/set-up/terraform/
+//          (see above link for RBAC roles needed for access policy used by this action)
 
 resource "grafana_slo" "ratio" {
   name        = "HTTP Requests Kubelet Success Rate Indicator"
