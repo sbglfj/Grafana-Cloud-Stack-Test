@@ -1,3 +1,5 @@
+// source: https://registry.terraform.io/providers/grafana/grafana/latest/docs
+
 variable "cloud_access_policy_token" {
   description = "Cloud Access Policy token for Grafana Cloud with the following scopes: accesspolicies:read|write|delete, stacks:read|write|delete"
 }
